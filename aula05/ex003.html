@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(103, 103, 182);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programing in JavaScript </h1>
+    <p>Studing JavaScript with teacher Guanabara !</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) // String. mais quando fazemos a conversão mudamos o ponto de saida para Numero inteiro.
+        var n2 = Number(window.prompt('Digite outro número: ')) // String. mais quando fazemos a conversão mudamos o ponto de saida para Numero inteiro.
+        var s = n1 + n2
+        window.alert('Os números digitados são: ' + n1 + ' e ' + n2 + ' !')
+        window.alert('E a soma dos número é ' + String(s) + ' !') // + é visto como concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // quando declaramos o window.prompt, sempre recebmos uma string e precisamos mudar para fazer a ação de adição númerica.
+        // Number.parseInt() números inteiros.
+        // Number.parseFloat() números real com ponto e vigula.
+        // Number() ele entende o que número inteiro ou real com ponto e vigula.
+        // String() pode clarar par aser string 
+        // n.toString() pode converter para string    
+    </script>
+</body>
+</html>
